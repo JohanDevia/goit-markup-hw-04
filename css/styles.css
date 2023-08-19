@@ -223,6 +223,9 @@ body {
   column-gap: 50px;
 }
 .box-title {
+  background-image: url("/images/images-hw-4/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: rgba(47, 48, 58, 1);
   display: flex;
   justify-content: center;
