@@ -56,6 +56,15 @@ body {
   line-height: 1.172;
   color: rgba(117, 117, 117, 1);
 }
+.list-active {
+  list-style: none;
+}
+.list-active:hover .links {
+  color: rgba(33, 150, 243, 1);
+}
+.list-active:focus .links {
+  color: rgba(33, 150, 243, 1);
+}
 .main-header {
   text-align: center;
 }
@@ -136,6 +145,7 @@ body {
 }
 .footer {
   background-color: rgba(47, 48, 58, 1);
+  padding: 60px 0;
 }
 .links-footer {
   list-style: none;
@@ -339,6 +349,12 @@ svg {
 .icon-iten:hover .icon {
   fill: rgba(255, 255, 255, 1);
 }
+.icon-iten:focus {
+  background-color: rgba(33, 150, 243, 1);
+}
+.icon-iten:focus .icon {
+  fill: rgba(255, 255, 255, 1);
+}
 .box-icon {
   list-style: none;
   display: flex;
@@ -348,12 +364,17 @@ svg {
 }
 .box-footer {
   display: flex;
-  padding: 60px 0;
+  flex-direction: column;
 }
 .box-logo-footer {
+  width: 145px;
+  height: 31px;
   margin: 0px 0px 9px 0px;
+  column-gap: 30px;
 }
 .box-link-footer {
+  width: 231px;
+  height: 100px;
   padding: 0;
 }
 .box-portfolio {
@@ -366,8 +387,6 @@ svg {
   margin-top: 106px;
   margin-left: 280px;
   margin-bottom: 50px;
-  width: 611px;
-  height: 54px;
   padding: 0%;
   gap: 8px;
 }
@@ -428,6 +447,12 @@ svg {
 .box-customer:hover .logo-customer {
   fill: rgba(33, 150, 243, 1);
 }
+.box-customer:focus {
+  border: 1px solid rgba(33, 150, 243, 1);
+}
+.box-customer:focus .logo-customer {
+  fill: rgba(33, 150, 243, 1);
+}
 .header-networks {
   width: 700px;
   font-size: 14px;
@@ -437,9 +462,8 @@ svg {
 .contact-networks {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   width: 206px;
-  height: 80px;
+  margin: 0 0 0 70px;
 }
 .box-icon-footer {
   list-style: none;
@@ -452,4 +476,22 @@ svg {
   width: 20px;
   height: 20px;
   color: rgba(255, 255, 255, 1);
+}
+.icon-iten-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-iten-footer:hover {
+  background-color: rgba(33, 150, 243, 1);
+}
+.icon-iten-footer:focus {
+  background-color: rgba(33, 150, 243, 1);
+}
+.box-cf {
+  display: flex;
 }

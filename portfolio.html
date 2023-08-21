@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-      <header class="box-tl">
+    <header class="box-tl">
       <nav class="topline container">
         <a class="main-link box-logo" href="./index.html">webstudio</a>
         <ul class="navigations box-nav">
@@ -22,17 +22,27 @@
           <li><a class="navigations" href="#">Contacto</a></li>
         </ul>
         <ul class="links box-links">
-          <li>
-            <a class="navigations" href="mailto:info@devstudio.com"
+          <li class="list-active">
+            <svg class="svg-links links" width="16" height="12">
+              <use
+                href="./images/images-hw-4/contac-logo/contac-logo.svg#icon-sobre"
+              ></use>
+            </svg>
+            <a class="links" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="navigations" href="tel:+525555296000">+52 55 5529 6000</a>
+          <li class="list-active">
+            <svg class="svg-links links" width="10" height="16">
+              <use
+                href="./images/images-hw-4/contac-logo/contac-logo.svg#icon-telfono-inteligente"
+              ></use>
+            </svg>
+            <a class="links" href="tel:+525555296000">+52 55 5529 6000</a>
           </li>
         </ul>
       </nav>
-      </header>
+    </header>
     <main id="main_portfolio" class="box-portfolio">
       <div class="container">
       <section id="filters" >
@@ -41,13 +51,13 @@
           <li>
             <button class="button-filter box-button" type="button">Todo</button>
           </li>
-          <li><button class="button-filter box-button" type="button">Sitios-web</Sitios-web></button></li>
+          <li><button class="button-filter box-button" type="button">Sitios-web</button></li>
           <li>
             <button class="button-filter box-button" type="button">Aplicaciones</button>
           </li>
           <li><button class="button-filter box-button" type="button">Diseño</button></li>
           <li>
-            <button class="button-filter box-business" type="button">Marketing</button>
+            <button class="button-filter box-button" type="button">Marketing</button>
           </li>
         </ul>
       </section>
@@ -140,10 +150,10 @@
         </div>
       </section>
     </main>
-    <footer class="footer box-footer">
-      <div class="container">
-        <a class="main-link box-logo-footer" href="./index.html">WebStudio</a>
-        <address>
+    <footer class="footer">
+      <div class="container box-cf">
+        <address class="box-footer">
+          <a class="main-link box-logo-footer" href="./index.html">WebStudio</a>
           <ul class="links-footer box-link-footer">
             <li>
               <a
@@ -167,6 +177,39 @@
             </li>
           </ul>
         </address>
+        <div class="contact-networks">
+          <h3 class="header-networks">ENCUENTRENOS EN</h3>
+          <ul class="box-icon-footer">
+            <li class="icon-iten-footer">
+              <svg class="icon-footer">
+                <use
+                  href="./images/images-hw-4/social-networks/social-networks.svg#icon-instagram"
+                ></use>
+              </svg>
+            </li>
+            <li class="icon-iten-footer">
+              <svg class="icon-footer">
+                <use
+                  href="./images/images-hw-4/social-networks/social-networks.svg#icon-twitter"
+                ></use>
+              </svg>
+            </li>
+            <li class="icon-iten-footer">
+              <svg class="icon-footer">
+                <use
+                  href="./images/images-hw-4/social-networks/social-networks.svg#icon-facebook"
+                ></use>
+              </svg>
+            </li>
+            <li class="icon-iten-footer">
+              <svg class="icon-footer">
+                <use
+                  href="./images/images-hw-4/social-networks/social-networks.svg#icon-linkedin"
+                ></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
