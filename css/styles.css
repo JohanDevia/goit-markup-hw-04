@@ -333,7 +333,7 @@ svg {
 .icon {
   width: 20px;
   height: 20px;
-  color: rgba(175, 177, 184, 1);
+  fill: rgba(175, 177, 184, 1);
 }
 .icon-iten {
   width: 44px;
@@ -349,11 +349,13 @@ svg {
 .icon-iten:hover .icon {
   fill: rgba(255, 255, 255, 1);
 }
-.icon-iten:focus {
+.icon-iten:focus-within {
   background-color: rgba(33, 150, 243, 1);
+  outline: none;
 }
-.icon-iten:focus .icon {
+.icon-iten:focus-within .icon {
   fill: rgba(255, 255, 255, 1);
+  outline: none;
 }
 .box-icon {
   list-style: none;
@@ -439,7 +441,7 @@ svg {
 .logo-customer {
   width: 106px;
   height: 52px;
-  color: rgba(175, 177, 184, 1);
+  fill: rgba(175, 177, 184, 1);
 }
 .box-customer:hover {
   border: 1px solid rgba(33, 150, 243, 1);
@@ -447,11 +449,14 @@ svg {
 .box-customer:hover .logo-customer {
   fill: rgba(33, 150, 243, 1);
 }
-.box-customer:focus {
+.box-customer:focus-within {
   border: 1px solid rgba(33, 150, 243, 1);
-}
-.box-customer:focus .logo-customer {
   fill: rgba(33, 150, 243, 1);
+  outline: none;
+}
+.box-customer:focus-within .logo-customer {
+  fill: rgba(33, 150, 243, 1);
+  outline: none;
 }
 .header-networks {
   width: 700px;
@@ -489,8 +494,9 @@ svg {
 .icon-iten-footer:hover {
   background-color: rgba(33, 150, 243, 1);
 }
-.icon-iten-footer:focus {
+.icon-iten-footer:focus-within {
   background-color: rgba(33, 150, 243, 1);
+  outline: none;
 }
 .box-cf {
   display: flex;
