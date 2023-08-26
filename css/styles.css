@@ -39,6 +39,7 @@ body {
 }
 .navigations:focus {
   color: rgba(33, 150, 243, 1);
+  outline: none;
 }
 .header-hidden {
   visibility: hidden;
@@ -50,7 +51,6 @@ body {
   padding: 0;
 }
 .links {
-  list-style: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.172;
@@ -62,7 +62,8 @@ body {
 .list-active:hover .links {
   color: rgba(33, 150, 243, 1);
 }
-.list-active:focus .links {
+.list-active:focus {
+  outline: none;
   color: rgba(33, 150, 243, 1);
 }
 .main-header {
