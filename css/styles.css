@@ -26,6 +26,7 @@ body {
 }
 .main-link:focus {
   color: rgba(33, 150, 243, 1);
+  outline: none;
 }
 .navigations {
   list-style: none;
@@ -59,10 +60,10 @@ body {
 .list-active {
   list-style: none;
 }
-.list-active:hover .links {
+.links:hover {
   color: rgba(33, 150, 243, 1);
 }
-.list-active:focus {
+.links:focus {
   outline: none;
   color: rgba(33, 150, 243, 1);
 }
@@ -245,6 +246,7 @@ body {
   padding: 0;
 }
 .title-bg {
+  width: 1600px;
   background-image: linear-gradient(
       to bottom,
       rgba(47, 48, 58, 0.4),
@@ -405,7 +407,7 @@ svg {
   flex-wrap: wrap;
   gap: 30px;
   padding: 0;
-  margin: o;
+  margin: 0;
 }
 .contenedor-bg {
   width: 370px;
